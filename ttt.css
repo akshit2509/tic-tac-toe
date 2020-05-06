@@ -1,0 +1,59 @@
+body {
+    background: #2c3e50;
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    font-family: Verdana, sans-serif;    
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.controls{
+    margin-top: 30px;
+}
+
+.cell{
+    cursor: pointer;
+}
+
+.radio{
+    margin-left: 20px;
+}
+
+.boardContainer{
+    margin-top: 40px;
+}
+
+.row{
+    font-size: 0px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.row > div{
+    display: inline-block;
+    font-size: 100px;
+    border: solid 1px white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 100px;
+}
